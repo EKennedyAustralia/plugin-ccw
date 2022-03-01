@@ -1,0 +1,19 @@
+{
+  "name": "plugin-ccw",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "postinstall": "flex-plugin pre-script-check"
+  },
+  "dependencies": {
+    "flex-plugin-scripts": "4.9.1-beta.0",
+    "react": "16.5.2",
+    "react-checkmark": "^1.4.0",
+    "react-credit-cards": "^0.8.3",
+    "react-dom": "16.5.2"
+  },
+  "devDependencies": {
+    "@twilio/flex-ui": "^1",
+    "react-test-renderer": "16.5.2"
+  }
+}
