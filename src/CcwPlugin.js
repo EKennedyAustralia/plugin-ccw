@@ -27,6 +27,7 @@ export default class CcwPlugin extends FlexPlugin {
       colorTheme: CustomTheme
     };
     manager.updateConfig(configuration);
+    flex.Actions.addListener('beforeLogout', (payload) => alert('beforeLogout'));
 
     flex.RootContainer.Content.remove("project-switcher")
     
